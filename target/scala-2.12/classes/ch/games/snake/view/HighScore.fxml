@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" styleClass="body" stylesheets="@Styles.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ch.games.snake.view.WelcomeController">
+    <children>
+      <SplitPane dividerPositions="0.5" layoutX="160.0" layoutY="139.0" prefHeight="400.0" prefWidth="600.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <items>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="398.0" prefWidth="143.0">
+               <children>
+                  <Text layoutX="8.0" layoutY="26.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Score Top 10" />
+                  <Label fx:id="one" layoutX="23.0" layoutY="41.0" text="Label" />
+                  <Label fx:id="two" layoutX="23.0" layoutY="77.0" text="Label" />
+                  <Label fx:id="three" layoutX="23.0" layoutY="108.0" text="Label" />
+                  <Label fx:id="four" layoutX="23.0" layoutY="143.0" text="Label" />
+                  <Label fx:id="five" layoutX="23.0" layoutY="178.0" text="Label" />
+                  <Label fx:id="six" layoutX="23.0" layoutY="212.0" text="Label" />
+                  <Label fx:id="seven" layoutX="23.0" layoutY="253.0" text="Label" />
+                  <Label fx:id="eight" layoutX="23.0" layoutY="291.0" text="Label" />
+                  <Label fx:id="nine" layoutX="23.0" layoutY="329.0" text="Label" />
+                  <Label fx:id="ten" layoutX="23.0" layoutY="363.0" text="Label" />
+               </children>
+            </AnchorPane>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="243.0" prefWidth="356.0" styleClass="body" stylesheets="@Styles.css" />
+        </items>
+      </SplitPane>
+    </children>
+</AnchorPane>

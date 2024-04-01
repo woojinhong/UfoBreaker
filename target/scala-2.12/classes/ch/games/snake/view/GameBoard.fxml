@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="anchorPane" onKeyPressed="#handleKeyPressed" prefWidth="1200.0" styleClass="body" stylesheets="@Styles.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ch.games.snake.view.BoardController">
+   <children>
+      <ImageView fx:id="gameBoard" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+         <image>
+            <Image url="@images/music-dj.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="oval" fitHeight="37.0" fitWidth="98.0" layoutX="619.0" layoutY="672.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/oval-23967_640.png" />
+         </image>
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+      </ImageView>
+      <Button layoutX="534.0" layoutY="7.0" mnemonicParsing="false" text="Press any key to start" />
+      <ImageView fx:id="ball" fitHeight="154.0" fitWidth="160.0" layoutX="559.0" layoutY="470.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/bombs.png" />
+         </image>
+      </ImageView>
+      <ImageView id="bricks" fx:id="brick4" fitHeight="64.0" fitWidth="108.0" layoutX="560.0" layoutY="51.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/brickUfo.png" />
+         </image>
+      </ImageView>
+      <ImageView id="bricks" fx:id="brick5" fitHeight="64.0" fitWidth="107.0" layoutX="744.0" layoutY="51.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/brickUfo.png" />
+         </image>
+      </ImageView>
+      <ImageView id="bricks" fx:id="brick3" fitHeight="74.0" fitWidth="108.0" layoutX="395.0" layoutY="51.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/brickUfo.png" />
+         </image>
+      </ImageView>
+      <ImageView id="bricks" fx:id="brick11" fitHeight="64.0" fitWidth="107.0" layoutX="650.0" layoutY="190.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/brickUfo.png" />
+         </image>
+      </ImageView>
+      <ImageView id="bricks" fx:id="brick7" fitHeight="64.0" fitWidth="107.0" layoutX="1079.0" layoutY="51.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/brickUfo.png" />
+         </image>
+      </ImageView>
+      <ImageView id="bricks" fx:id="brick10" fitHeight="159.0" fitWidth="107.0" layoutX="820.0" layoutY="190.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/brickUfo.png" />
+         </image>
+      </ImageView>
+      <ImageView id="bricks" fx:id="brick9" fitHeight="159.0" fitWidth="107.0" layoutX="998.0" layoutY="190.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/brickUfo.png" />
+         </image>
+      </ImageView>
+      <ImageView id="bricks" fx:id="brick8" fitHeight="74.0" fitWidth="108.0" layoutX="1158.0" layoutY="190.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/brickUfo.png" />
+         </image>
+      </ImageView>
+      <ImageView id="bricks" fx:id="brick2" fitHeight="64.0" fitWidth="108.0" layoutX="226.0" layoutY="51.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/brickUfo.png" />
+         </image>
+      </ImageView>
+      <ImageView id="bricks" fx:id="brick6" fitHeight="64.0" fitWidth="107.0" layoutX="907.0" layoutY="51.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/brickUfo.png" />
+         </image>
+      </ImageView>
+      <ImageView id="bricks" fx:id="brick1" fitHeight="64.0" fitWidth="108.0" layoutX="70.0" layoutY="51.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/brickUfo.png" />
+         </image>
+      </ImageView>
+      <ImageView id="bricks" fx:id="brick15" fitHeight="64.0" fitWidth="108.0" layoutX="30.0" layoutY="190.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/brickUfo.png" />
+         </image>
+      </ImageView>
+      <ImageView id="bricks" fx:id="brick14" fitHeight="64.0" fitWidth="108.0" layoutX="170.0" layoutY="190.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/brickUfo.png" />
+         </image>
+      </ImageView>
+      <ImageView id="bricks" fx:id="brick13" fitHeight="64.0" fitWidth="108.0" layoutX="320.0" layoutY="190.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/brickUfo.png" />
+         </image>
+      </ImageView>
+      <ImageView id="bricks" fx:id="brick12" fitHeight="64.0" fitWidth="108.0" layoutX="480.0" layoutY="190.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/brickUfo.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
